@@ -1,4 +1,3 @@
-
 import './App.css'
 import Card from './components/Card'
 import * as React from 'react'
@@ -6,10 +5,20 @@ import * as React from 'react'
 function App() {
 
   return (
-    <>helo
+    <>
+      <div className="Header"> HTL Dornbirn 5bWI </div>
+
+      <div className="Cards">
       <Card />
       <Card />
+      
       <Card />
+      <Card />
+      
+
+  
+      </div>
+      
     </>
   )
 }

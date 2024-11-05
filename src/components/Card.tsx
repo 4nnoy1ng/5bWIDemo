@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react'
+import './Card.css'
 
 interface Props {
 
@@ -6,8 +7,10 @@ interface Props {
 
 export default function Card({ }: Props): ReactElement {
     return (
-        <div>
-            Card
+        <div className="card"> 
+            <img className="img"src="https://picsum.photos/200/200" alt="" />
+            <div>Lorem ipsum dolor sit amet, consetetur </div>
         </div>
+
     )
 }

@@ -1,0 +1,17 @@
+.card {
+    height: 280px;
+    width: 220px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: white;
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.img {
+    padding: 10px;
+    border-radius: 10px;
+}
