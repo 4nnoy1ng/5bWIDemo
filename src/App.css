@@ -1,18 +1,17 @@
-.Header{
+.Header {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 50px;
   font-weight: bolder;
-  font-size:xx-large
+  font-size: xx-large;
 
 }
 
-.Cards{
-
+.Cards {
   display: grid;
-  align-content: ;
-  
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-row: 1550px;
 
 }
